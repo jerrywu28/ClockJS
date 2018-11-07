@@ -1,0 +1,17 @@
+body {
+  background-color: brown;
+}
+
+.clock-face {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.hand {
+  width: 25px;
+  margin: 0 auto;
+  background-color: black;
+}
