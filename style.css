@@ -22,16 +22,7 @@ body {
   transform: translateY(-3px);
 }
 
-.hand {
-  width: 50%;
-  height: 6px;
-  background-color: black;
-  position: absolute;
-  top: 50%;
-  transform-origin: 100%;
-  transition-timing-function: cubic-bezier(0.1, 3.0, .50, 1);
-}
-
+/*Center cap because rotation-axis has ugly gap that needs to be covered*/
 .center-cap {
   height: 25px;
   width: 25px;
@@ -40,6 +31,17 @@ body {
   top: 48%;
   left: 48%;
   border-radius: 50%;
+}
+
+/*Style settings for hour, minute, second hand*/
+.hand {
+  width: 50%;
+  height: 6px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transition-timing-function: cubic-bezier(0.1, 3.0, .50, 1);
 }
 
 .hour-hand {
